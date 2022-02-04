@@ -10,8 +10,26 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <div id="one">first container</div>
-      <div id="two">second container</div>
+      <div
+        id="one"
+        style={{
+          margin: "10px 30px",
+          padding: "10px",
+          border: "1px solid green",
+        }}
+      >
+        first container
+      </div>
+      <div
+        id="two"
+        style={{
+          margin: "10px 30px",
+          padding: "10px",
+          border: "1px solid red",
+        }}
+      >
+        second container
+      </div>
       <button
         onClick={() => {
           // message.destroy()
